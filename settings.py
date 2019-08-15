@@ -96,8 +96,13 @@ DOWNLOADER_MIDDLEWARES = {
 }
 
 USER_AGENTS = [
-    ('Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.39'),
-    ('Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.35'),  # chrome
+    ('Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.31'),
+    ('Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.32'),
+    ('Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.33'),
+    ('Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.34'),
+    ('Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.35'),
+    ('Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36'),
+    ('Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.37'), # chrome
     
 ]
 
@@ -107,10 +112,12 @@ USER_AGENTS = [
 }"""
 
 ROTATING_PROXY_LIST = [
-    '198.50.214.17:8585',
-    '185.132.133.187:1080',
-    '134.119.214.205:8080',
-    # ...
-]
 
+    '127.0.0.1:24000',
+    
+  
+]
+    #'https://lum-customer-hl_49f51c17-zone-zone1:7u2432crin5b@zproxy.lum-superproxy.io:22225',
+#'24.37.245.42:43981',
+#'113.160.46.202:8080',
 #'24.37.245.42:43981',
